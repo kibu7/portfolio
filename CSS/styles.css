@@ -9,42 +9,41 @@ body {
     ". aside section ."
     ". footer footer .";
 }
-h1{
+
+h1 {
   font-size: 40px;
   text-align: center;
 }
-h2{
+
+h2 {
   text-align: left;
   padding-left: 20px;
 }
+
 p {
   margin: 0;
   padding: 0;
 }
 
-.small-titel{
+.small-titel {
   font-size: 1.33em;
   font-weight: bold;
 }
 
-.big-titel{
+.big-titel {
   font-size: 1.7em;
   font-weight: bold;
 }
 
-.data{
+.data {
   padding-bottom: 20px
-
 }
 
-.sprachen{
-  margin-left: 15px;
-}
-hr{
+hr {
   border: 1px solid #66a3ff;
-
 }
-ul{
+
+ul {
   padding-left: 35px;
   margin: 0;
 }
@@ -80,8 +79,6 @@ section {
 }
 
 /* NOTE: Section */
-
-
 .year {
   font-style: italic;
   vertical-align: top;
