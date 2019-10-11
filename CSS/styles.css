@@ -1,6 +1,93 @@
-body {background-color: white;}
-h1   {color: black;}
-#hallo{color: yellow;}
-#b{color: black;}
-.address {color:darkblue;
-          text-align: center;}
+body {
+  line-height: 1.6;
+  background-color: #bfbfbf;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 0.5fr 2fr 3fr 0.5fr;
+  grid-template-areas: ". header header ."
+    ". aside section ."
+    ". footer footer .";
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+h2{
+  text-align: left;
+  padding-left: 20px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.small-titel{
+  font-size: 1.33em;
+  font-weight: bold;
+}
+
+.big-titel{
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.data{
+  padding-bottom: 20px
+
+}
+
+.sprachen{
+  margin-left: 15px;
+}
+hr{
+  border: 1px solid #66a3ff;
+
+}
+ul{
+  padding-left: 35px;
+  margin: 0;
+}
+
+header {
+  grid-area: header;
+  background-color: #e6e6e6;
+  border-bottom: 3px solid #66a3ff;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #e6e6e6;
+  border-right: 3px solid #66a3ff;
+}
+
+section {
+  grid-area: section;
+  background-color: #e6e6e6;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside,
+section {
+  padding: 20px;
+}
+
+/* NOTE: Section */
+
+
+.year {
+  font-style: italic;
+  vertical-align: top;
+}
+
+.description {
+  text-align: left;
+  padding-bottom: 10px;
+}
