@@ -1,6 +1,6 @@
 body {
   line-height: 1.6;
-  background-color: #bfbfbf;
+  background-color: #ebebeb;
   font-family: sans-serif;
   display: grid;
   grid-template-rows: auto;
@@ -40,7 +40,7 @@ p {
 }
 
 hr {
-  border: 1px solid #66a3ff;
+  border: 1px solid #d0d2d2;
 }
 
 ul {
@@ -50,24 +50,24 @@ ul {
 
 header {
   grid-area: header;
-  background-color: #e6e6e6;
-  border-bottom: 3px solid #66a3ff;
+  background-color: #fefdea;
+  border-bottom: 3px solid #d0d2d2;
 }
 
 aside {
   grid-area: aside;
-  background-color: #e6e6e6;
-  border-right: 3px solid #66a3ff;
+  background-color: #fefdea;
+  border-right: 3px solid #d0d2d2;
 }
 
 section {
   grid-area: section;
-  background-color: #e6e6e6;
+  background-color: #fefdea;
 }
 
 footer {
   grid-area: footer;
-  background-color: #e6e6e6;
+  background-color: #fefdea;
   text-align: center;
   align-items: center;
 }
