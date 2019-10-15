@@ -25,6 +25,10 @@ p {
   padding: 0;
 }
 
+table {
+  width: 100%;
+}
+
 .small-titel {
   font-size: 1.33em;
   font-weight: bold;
@@ -86,4 +90,15 @@ section {
 .description {
   text-align: left;
   padding-bottom: 10px;
+}
+
+.sprachen tr td:first-child {
+  width: 22%;
+}
+/* .sprachen tr td:nth-child(2) {
+  width: 100;
+} */
+
+.righttable tr td:first-child {
+  width: 40%;
 }
