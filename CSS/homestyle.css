@@ -1,0 +1,18 @@
+.card{
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.35);
+  padding: 1.5em;
+
+}
+
+.card-title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-content{
+  text-align: center;
+}
+
+section{
+  height: 30em;
+}
