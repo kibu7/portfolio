@@ -15,12 +15,15 @@ body {
 p{
   margin: 0px;
 }
+
+
 header{
   grid-area: header;
   background-color: #fefdea;
   padding: 30px;
   text-align: center;
 }
+
 
 nav{
   grid-area: nav;
@@ -99,6 +102,8 @@ footer{
   background-color: #fefdea;
   border-top: 3px solid #d0d2d2;
 }
+
+
 
 /* NOTE:responsive ab hier */
 
